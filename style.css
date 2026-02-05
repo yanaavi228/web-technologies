@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf9f7; 
+    color: #5a5a5a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e6f0ff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-right: 30px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+header h1 {
+    color: #6b5b95; 
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+}
+
+.slogan {
+    color: #7a6fa8; 
+    font-size: 1.2em;
+    margin: 0;
+    font-style: italic;
+}
+
+#goal {
+    background-color: #f0e6ff; 
+    padding: 25px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.goal-text {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #6b5b95;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #6b5b95; 
+    border-bottom: 2px solid #e6fff0;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.about-content {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.about-content p {
+    margin: 10px 0;
+}
+
+.skills-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.skills-column {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skills-column h3 {
+    color: #7a6fa8;
+    margin-top: 0;
+}
+
+.skills-column ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skills-column li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    list-style-type: square;
+}
+
+footer {
+    background-color: #e6f0ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 2px solid #d4e4ff;
+}
+
+.footer-contacts {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer-contacts p {
+    margin: 5px 0;
+}
+
+.footer-copyright {
+    color: #6b5b95;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
