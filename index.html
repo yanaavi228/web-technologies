@@ -3,67 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио</title>
+    <title>Мое Портфолио</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <img src="avatar.jpg" alt="Фото Яны" class="avatar">
-            <div class="header-text">
-                <h1>Привет, я Яна!</h1>
-                <p class="slogan">Студентка Computer Science | Разработчик | Креативный мыслитель</p>
-            </div>
-        </div>
+        <nav>
+            <a href="#about">О себе</a>
+            <a href="#skills">Навыки</a>
+            <a href="#achievements">Достижения</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <h1>Привет! Я начинающий веб-разработчик</h1>
+        <img src="avatar.jpg" alt="Мое фото" width="150">
+        <p>Мой слоган: Код — это искусство.</p>
     </header>
 
-    <main>
-        <section id="goal">
-            <p class="goal-text">Цель: только вперед, ни шагу назад!!</p>
-        </section>
+    <section id="about">
+        <h2>Информация о себе</h2>
+        <p>Меня зовут Яна, я живу в городе Павлодар. Учусь в НАО Торайгыров университет по специальности Computer Science.</p>
+        <p>Интересы: Увлечена веб-разработкой, инженерным моделированием и разработкой игр.</p>
+        <p>Хобби: видеоигры, художественная татуировка, музыка и долгие прогулки. И пицца!</p>
+    </section>
 
-        <section id="about">
-            <h2>Информация о себе</h2>
-            <div class="about-content">
-                Меня зовут Яна и я из города Павлодар. Учусь в НАО Торайгыров университет, на специальность Computer Science,
-                на сокращенном обучении. В школе мечтала создавать игры и собирать новые устройства для людей, написать
-                свою операционную систему. Поступила на программиста, чтобы быть всегда актуальным специалистом!
-                Также я увлекаюсь видеоиграми, художественной татуировкой, люблю музыку и долгие прогулки. 
-                <h4>И пиццу.</h4>
+    <section id="skills">
+        <h2>Навыки</h2>
+        <ul>
+            <li><strong>Hard skills:</strong> Прокладка сетей, настройка ОС, C#, работа с БД, 1С, Autodesk Inventor</li>
+            <li><strong>Soft skills:</strong> Коммуникация, ответственность, стрессоустойчивость, лидерство, креативность</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Достижения</h2>
+        <div class="achievement-card">
+            <img src="photo.png" alt="WorldSkills Pavlodar 2025" class="achievement-photo">
+            <div class="achievement-content">
+                <h3>Отличная учеба в колледже</h3>
+                <p>За время обучения неоднократно получала высокие оценки и благодарности от преподавателей.</p>
+                <h3>Эксперт WorldSkills Pavlodar 2025</h3>
+                <p>Участвовала в качестве эксперта в компетенции "Инженерная графика CAD". Это был интересный опыт: побывать на площадке и внести свою лепту в оценивание участников.</p>
             </div>
-        </section>
-
-        <section id="skills">
-            <h2>Навыки</h2>
-            <div class="skills-container">
-                <div class="skills-column">
-                    <h3>Hard skills:</h3>
-                    <ul>
-                        <li>Прокладка сети</li>
-                        <li>Настройка операционных систем</li>
-                        <li>C#</li>
-                        <li>Работа с базами данных</li>
-                        <li>Работа с 1С</li>
-                    </ul>
-                </div>
-                <div class="skills-column">
-                    <h3>Soft skills:</h3>
-                    <ul>
-                        <li>Коммуникация</li>
-                        <li>Ответственность</li>
-                        <li>Стрессоустойчивость</li>
-                        <li>Лидерство</li>
-                        <li>Креативность</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-contacts">
-            <p>Email: yana@gmail.com | Telegram: @yana </p>
         </div>
+    </section>
+
+    <section id="projects">
+        <h2>Проекты</h2>
+        <p class="projects-intro">Проектов у меня весьма мало! Но вот чем я занималась:</p>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Компьютерные сети</h3>
+                <p>На производственных практиках и работе занималась ремонтом и прокладкой компьютерных сетей.</p>
+            </div>
+            <div class="project-card">
+                <h3>Дипломный проект</h3>
+                <p>Программирование в дипломе — одна из немногих возможностей создать что-то серьёзное с кодом.</p>
+            </div>
+            <div class="project-card">
+                <h3>Веб-сайты</h3>
+                <p>Несколько красивых сайтов, созданных на веб-программировании.</p>
+            </div>
+            <div class="project-card">
+                <h3>Инженерное моделирование</h3>
+                <p>Изучала Autodesk Inventor и создавала небольшие 3D-модели.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <h2>Контакты</h2>
+        <p>Email: <a href="mailto:yana@gmail.com">yana@gmail.com</a></p>
+        <p>Telegram: @yana</p>
+        <p><a href="https://github.com/">Мой GitHub</a></p>
         <p class="footer-copyright">© 2026 CS-102(c). МООК Веб-технологии</p>
     </footer>
 </body>
